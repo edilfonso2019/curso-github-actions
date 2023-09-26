@@ -1,5 +1,7 @@
 # hola_lenguaje.py
 
+import os  # Importar el módulo os para acceder a las variables de entorno
+
 # Obtener el lenguaje favorito desde la variable de entorno
 lenguaje_favorito = os.getenv('LANGUAGE')
 
